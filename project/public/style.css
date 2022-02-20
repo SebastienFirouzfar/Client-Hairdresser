@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(255, 214, 29);
+}
+
+
+
+/* header start */
+
+header {
+    background: url("images/homeImage.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.nav-area-container {
+    padding: 40px;
+    
+}
+
+.nav-area{
+    position: relative;
+    margin-left: 10%;
+}
+
+.nav-area li {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+.nav-area li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow:2px 2px 4px #000000;
+}
+
+.nav-area li a:hover {
+    color: black;
+}
+
+h3{
+    text-shadow:2px 2px 4px #000000;
+    text-align: center;
+}
+
+.welcome-text {
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+
+.welcome-text .btn {
+    color: black;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Quicksand', sans-serif;
+    padding: 2px;
+    border: none;
+    background-color: rgb(255, 214, 29);
+    height: 30px;
+    width: 140px;
+}
+
+/* .welcome-text .btn:hover {
+    color: rgb(146, 91, 40);
+} */
+
+.calendarlink {
+    color: rgb(37, 35, 35);
+    text-decoration: none;
+}
+
+.calendarlink:hover {
+    color: rgb(146, 91, 40);
+}
+
+.fa{
+    font-size:36px; 
+}
+
+/******BODY*****/
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/********************************OUR SERVICE********************************/
+
+.container {
+    display: flex;
+    margin-right: 7px;
+}
+
+.container .item {
+    background-color: gray;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.container .item2 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/*Img est l'enfant de div*/
+
+div>img {
+    width: 100%;
+    margin-right: 20px;
+    height: 50vh;
+}
+
+/*P est l'enfant de div*/
+
+div>p {
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*h1 est l'enfant de div*/
+
+div>h1 {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: 30px;
+}
+
+/****************************BABERS**********************************/
+#barbers{
+    position: relative;
+    top: 3px;
+}
+
+.divContainerBabers{
+    margin-top:5%;
+}
+
+/***************************CONTACT***********************************/
+
+form {
+    padding: 10px;
+    margin-top: 2%;
+}
+
+#contact{
+   margin-top:5%;
+}
+
+.commentaireTextarea{
+    resize: none;
+}
+
+section {
+    background-color: rgb(255, 214, 29);
+}
+
+
+
+.sectionContact{
+    margin-top: 0;
+    background-color: rgb(255, 214, 29);
+}
+
+input {
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    bottom: 5%;
+    margin-bottom: 10px;
+    background: rgb(245, 244, 243);
+    border-radius: 4px;
+    margin-left: 20px;
+    width: 47vh;
+}
+
+textarea {
+    background: rgb(245, 244, 243);
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+/* header end */
+
+/* ============================== */
+
+/* about us Start */
+
+.about-us-container {
+    display: flex;
+    height: 100vh;
+    background-color:rgb(255, 214, 29);
+}
+
+.img-container {
+    height: 80%;
+    width: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.img {
+    background: url("images/aboutus.jpg");
+    height: 100%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.abou-us-right {
+    /* background-color: blue; */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.about-us-text h1 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+}
+
+.abou-us-right p {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.opening-hour {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.opening-hour p {
+    padding-top: 10px;
+}
+
+/* about us End */
+
+/* ============================== */
+
+/* Contact Start  */
+
+.contact-container .title {
+    display: flex;
+    justify-content: center;
+}
+
+
+#map{
+    width: 70%; 
+    height: 400px;
+    position: relative;
+    left: 14%;
+}
+
+.contact-container {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top:5%; 
+}
+
+.info-container {
+    display: flex;
+    padding: 54px;
+    justify-content: space-around;
+}
+
+.copyride{
+    text-align: center;
+    
+}
+
+/* This sets an overlay element that covers the map and helps prevent people from zooming the map while scrolling. */
+
+/* Contact End  */
+
+/* Media Query Start width 375px i phone 6/7/8 */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 600px) {
+    .about-us-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .img-container {
+        height: 53%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .img {
+        background: url(images/aboutus.jpg);
+        height: 68%;
+        width: 92%;
+        background-size: cover;
+        background-position: center;
+    }
+    .abou-us-right {
+        width: 100%;
+        display: flex;
+        padding: -24px;
+        padding-top: 0px;
+        padding-bottom: 47px;
+        flex-direction: column;
+    }
+    .contact-container .maps-info .maps {
+        display: flex;
+        margin-left: 23%;
+        align-items: center;
+        width: 2%;
+        justify-content: center;
+        height: 57%;
+        padding: 20px;
+    }
+    .about-us-text {
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+        width: 100%;
+        word-wrap: break-word;
+    }
+    .opening-hour {
+        padding-top: 29%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container {
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .contact-container .title {
+        text-align: center;
+    }
+    .info-container {
+        background-color: rgb(238, 238, 238);
+        padding: 64px;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        align-items: center;
+        font-size: 9px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 390px) {
+    .about-us-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .abou-us-right {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        padding: -24px;
+        flex-direction: column;
+    }
+    .opening-hour {
+        padding-top: 53%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container {
+        align-items: center;
+        width: 100%;
+        padding-top: 68%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+
+    .container {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 5px;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .info-container{
+        background:  rgb(255, 214, 29);;
+    }
+}
+
+.myButton {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.35em;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(255, 214, 29);
+    background-color: black;
+    box-shadow: inset 0 -0.4em 0 -0.35em rgba(66, 62, 62, 0.671);
+    text-align: center;
+    position: relative;
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+.myButton:active {
+    top: 0.1em;
+}
+
+.PMaps {
+    margin-left: 34px;
+}
+
+/****FOOTER***/
+
+footer {
+    /* border-style: solid; */
+    /* background: rgb(146, 139, 139); */
+    margin: 10px;
+    margin-top:5%; 
+}
+
+div>h2 {
+    margin: 20px;
+    position: relative;
+    left: 30px;
+}
+
+div>a {
+    margin: 10px;
+    position: relative;
+    left: 30%;
+}
+
+.item2Footer {
+    position: relative;
+    left: 50%;
+}
+
+.fa {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+/****MEDIA QUERY****/
+
+@media screen and (max-width: 990px) {
+    form input{
+        margin: 10px 0;
+        padding: 8px;
+    }
+    
+    .info-container{
+        flex-direction: column;
+        /* width: 100%; */
+        flex-direction: column;
+        grid-gap: 10px;
+    }
+
+    .info-container p{
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        grid-gap: 10px;
+    }
+    form {
+        margin-left: 10%;
+    }
+    .commentaireTextarea {
+        width: 74%;
+    }
+    form .myButton {
+        margin-right: 45%;
+        margin-top: 20px;
+    }
+    /**FOOTER**/
+    footer {
+        margin: 10px;
+    }
+    .item1Footer {
+        margin-left: 20%;
+    }
+    div .item2Footer {
+        margin-right: 55%;
+        position: relative;
+        left: 20%;
+        bottom: 10px;
+    }
+    #SocialMedia {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .copyride{
+        position: relative;
+        margin-top: 50%;
+    }
+}
+
+@media all and (max-width:30em) {
+    .myButton {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
